@@ -1,8 +1,8 @@
 class Proktree < Formula
   desc "Print your processes as a tree, nicely displayed"
   homepage "https://github.com/jeremywohl/proktree"
-  url "https://github.com/jeremywohl/proktree/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "2d206a31ea0ebcb77235726560f0b1b31b9e64be81483f8699d64e6eebe91a56"
+  url "https://github.com/jeremywohl/proktree/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "06d8f3c37f5dde8533253ab7d4daf7951fc8cdd773f3d21bfad3a7ae5bf94417"
   license "MIT"
 
   depends_on "go" => :build
