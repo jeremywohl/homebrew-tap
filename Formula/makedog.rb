@@ -9,6 +9,7 @@ class Makedog < Formula
 
   def install
     system "go", "build", *std_go_args, "./src"
+    man1.install "doc/makedog.1"
   end
 
   test do
