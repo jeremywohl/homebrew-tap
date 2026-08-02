@@ -1,9 +1,9 @@
 class Touchstore < Formula
   desc "Touch ID-guarded label/value store, encrypted in the Secure Enclave"
   homepage "https://github.com/jeremywohl/touchstore"
-  url "https://github.com/jeremywohl/touchstore/releases/download/v0.1.0/touchstore-v0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "63cf60f8636433f61e43f520a38cb49048f2205fc279f3eee00c9d426022fcf2"
+  url "https://github.com/jeremywohl/touchstore/releases/download/v0.5.0/touchstore-v0.5.0.tar.gz"
+  version "0.5.0"
+  sha256 "e68aaa7ffbede3a4e75ae802b8b7a5c58d99689b9493ac9d45db7689d2102209"
   license "MIT"
 
   depends_on :macos
